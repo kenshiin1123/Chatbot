@@ -42,9 +42,8 @@ body::-webkit-scrollbar {
     >form {
         & {
             box-shadow: 0 .3vh .6vh black;
-            height: clamp(60vh, 30vw, 70vh);
-            width: 40vw;
-            min-width: 43vh;
+            height: clamp(70vh, 40vw, 80vh);
+            width: clamp(45vh, 45vw, 75vh);
             border-radius: 2vh;
             background-color: white;
             overflow: hidden;
@@ -110,7 +109,7 @@ body::-webkit-scrollbar {
                         background-color: rgb(245, 243, 243);
                         align-self: center;
                         width: 70%;
-                        height: 4vh;
+                        height: clamp(4vh, 7vw, 6vh);
                         border-radius: 1vh;
                         border: none;
                         border: .2vh solid black;

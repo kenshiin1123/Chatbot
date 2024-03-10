@@ -213,21 +213,20 @@ main {
     align-items: center;
 
     .proceed {
-        & {
-            /* overflow: hidden; */
+
+        /* & {
             font-family: "Poppins", sans-serif;
             background-color: #0C4D12;
             margin-top: 8vh;
-            min-width: 38vh;
-            width: 32vw;
-            max-width: 55vh;
-            height: 38vh;
+            width: clamp(38vh, 32vw, 55vh);
+            min-height: 2vh;
+            height: 30vw;
             border-radius: 3vh;
             display: flex;
             flex-direction: column;
             align-items: center;
             padding-top: 9vh;
-        }
+        } */
 
         >section {
 
@@ -249,7 +248,7 @@ main {
                     & {
                         font-size: 1.4em;
                         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                        width: 23vh;
+                        width: clamp(150px, 10vw, 300px);
                         font-weight: 600;
                         min-height: 5vh;
                         height: 1.7em;
@@ -288,8 +287,45 @@ main {
             flex-direction: column !important;
         }
 
-        >button {
+        /* >button {
             width: 30vh !important;
+        } */
+    }
+}
+
+@media (orientation:landscape) {
+
+
+    .proceed {
+        & {
+            font-family: "Poppins", sans-serif;
+            background-color: #0C4D12;
+            margin-top: 8vh;
+            width: clamp(280px, 30vw, 370px);
+            height: clamp(200px, 25vw, 240px);
+            border-radius: 3vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 9vh;
+        }
+    }
+}
+
+@media (orientation:portrait) {
+
+    .proceed {
+        & {
+            font-family: "Poppins", sans-serif;
+            background-color: #0C4D12;
+            margin-top: 8vh;
+            width: clamp(280px, 30vw, 370px);
+            height: clamp(300px, 25vw, 400px);
+            border-radius: 3vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 9vh;
         }
     }
 }
