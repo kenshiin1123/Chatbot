@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Login page for Students</title>
     <link rel="stylesheet" href="loginPage.css">
 </head>
 
@@ -21,10 +21,10 @@
             </header>
             <main>
                 <section>
-                    <label for="id">ID No.</label>
-                    <input type="text" id="id">
+                    <label for="id" class="ID-label">ID No.</label>
+                    <input type="text" id="ID">
                 </section>
-                <section><label for="password">Password</label>
+                <section><label for="password" class="password-label">Password</label>
                     <input type="password" id="password">
                 </section>
                 <section>
@@ -36,7 +36,7 @@
     </div>
     <script>
         const form = document.querySelector("form");
-        const id = document.querySelector("#id");
+        const id = document.querySelector("#ID");
         const container = document.querySelector(".container");
         container.classList.toggle = "container-blur";
         const password = document.querySelector("#password");
@@ -45,16 +45,16 @@
         const add = () => container.classList.add("container-blur");
         const remove = () => container.classList.remove("container-blur");
 
-        id.addEventListener("input", add);
-        id.addEventListener("change", remove);
-        password.addEventListener("input", add);
-        password.addEventListener("change", remove);
+        id.addEventListener("focus", add);
+        id.addEventListener("blur", remove);
+        password.addEventListener("focus", add);
+        password.addEventListener("blur", remove);
 
         submit.addEventListener("click", (e) => {
             e.preventDefault();
-            alert("This page is under construction.");
-            alert("Going back to the previous page.");
-            window.location = "index.html";
+            // alert("This page is under construction.");
+            // alert("Going back to the previous page.");
+            window.location = "studentUI.html";
         })
     </script>
 </body>

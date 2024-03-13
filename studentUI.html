@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student UI</title>
+    <link rel="stylesheet" href="studentUI.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <section>
+                <img src="tcgc_logo.jpg" alt="">
+                <h1>TCGC</h1>
+            </section>
+            <section id="logout-button">
+                <h1>logout</h1>
+            </section>
+        </header>
+        <main>
+            <section class="ai-chat-section">
+                <div class="profile">
+                    <img class="profileIMG" src="tcgc_logo.jpg" alt="">
+                </div>
+                <div class="message">
+                    Hello, how can I help you?
+                </div>
+            </section>
+        </main>
+        <form action="#">
+            <textarea name="" id="" placeholder=" Type your message here"></textarea>
+            <section>
+                <svg id="send-button" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24"
+                    style="fill: rgba(0, 0, 0, 1);">
+                    <path
+                        d="m21.426 11.095-17-8A.999.999 0 0 0 3.03 4.242L4.969 12 3.03 19.758a.998.998 0 0 0 1.396 1.147l17-8a1 1 0 0 0 0-1.81zM5.481 18.197l.839-3.357L12 12 6.32 9.16l-.839-3.357L18.651 12l-13.17 6.197z">
+                    </path>
+                </svg>
+            </section>
+        </form>
+    </div>
+    <!-- <script type="importmap">
+        {
+          "imports": {
+            "@google/generative-ai": "https://esm.run/@google/generative-ai"
+          }
+        }
+      </script> -->
+    <script src="studentUI.js"></script>
+    <!-- <script type="module" src="main.mjs"></script> -->
+
+</body>
+
+</html>
