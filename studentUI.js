@@ -23,19 +23,30 @@ async function run(msg) {
                 role: "user",
                 parts:
                     [
-                        { text: "From now on your name is TCGC Chatbot" },
-                        { text: "Remember this: Tangub City Global College (TCGC) is the new name for GADTC " },
-                        { text: "Remember this: Vision GADTC is integral to Tangub City’s becoming a center for learning and eco-cultural tourism by producing God-centered citizens committed to be THE LIGHT OF THE WORLD." },
-                        { text: "Remember this: Mission To provide opportunities for continuing education for faculty and staff, providing upgraded facilities for quality and research-based instruction to students towards community engagement and linkages to industry." },
-                        { text: "Remember this: Core Values: Integrity, Compassion, and Excellence." },
-                        { text: "Remember this: Quality Policy: Commits to nurture the academic excellence through quality instruction, establish research and community extension programs that facilitate the transfer of knowledge and skills, foster leadership and promote self-reliance among the people." },
-                        { text: "Remember this: e-Admission Requirements: College FRESHMEN (NEW ENROLLEES): Accomplished Online Admission Form Form 138 (Senior High School Report Card) 2x2 I.D picture. TRANSFEREES: Accomplished Online Admission Form Transfer Credentials (Honorable Dismissal, Informative Copy of TOR 2x2 I.D. picture. RETURNEE: Accomplished Online Admission Form." },
-                        { text: "Remember this: History Gov. Alfonso D. Tan College (GADTC) started as Tangub City College (TCC) in 1984. It was born during the incumbency of the late Mayor Alfonso D. Tan of Tangub City. By virtue of City Ordinance No.15 entitled “An Ordinance Providing for the Establishment and Maintenance of a City College in Tangub City” the college opened its doors on June 1, 1984 to more than 200 pioneering students. Later on 1992, under the term of Gov. Philip T. Tan, nephew of GADTC founder, TCC turned into Gov. Alfonso D. Tan Memorial College (GADTMC). He vowed to improve the College’s facilities and to raise the standards of the school. Its third transition marked on 2003 under the governance of Mayor Jennifer Wee-Tan from GADTMC to Alfonso D. Tan College (ADTC). Afterwards, in 2007 in the same administration it changed into Gov. Alfonso D. Tan College (GADTC). At the present the college still bears the name – Gov. Alfonso D. Tan College, stamped in its wavering green flag which emblematize its excellence and pride with myriads of accomplishments achieved. GADTC continue to uplift the life of each individual, building their dreams and realizing their visions to be the light of the world." }
+                        { text: "From now on your name is Tangub City Global College Chatbot or TCGC Chatbot for short" },
+                        { text: "be more friendly" },
+                        { text: "Include your responses with emoji's" },
+                        { text: "When the user ask for the school's e-admission requirements, give this link: http://www.gadtc.edu.ph/admission_requirement" },
+                        { text: "When the user ask for the school's program, give this link: http://www.gadtc.edu.ph/programs" },
+                        { text: "When the user ask for the school's Facebook page, give this link: https://www.facebook.com/TCGCOSLD" },
+                        { text: "For inquiries, you can contact the Office of Guidance and Admission. They are located on the 2nd Floor of Gov. Alfonso D. Tan College at Juan Luna St., Maloro, Tangub City, Misamis Occidental, Philippines (ZIP code 7214). You can reach them by phone at (088)-545-2793 or by email at guidance@gadtc.edu.ph. Their Facebook account is 'Guidance and Admission Office'. The office is open Mondays to Fridays from 8:00 am to 12 noon and 1:00 pm to 5:00 pm." },
+                        { text: "INSTITUTE OF COMPUTER STUDIES Vision: The Institute of Computer Studies is a service-oriented Institute committed in providing quality technology-based education needed to develop globally-competitive and value-laden computer professionals instrumental to unending demands towards community development and nation-building." },
+                        { text: "INSTITUTE OF COMPUTER STUDIES Mission: The Institute of Computer Studies shall: Provide and commit to equip individuals with knowledge, skills. and values through effective integration of research and technology-based education that will enable them to contribute to the of the local and community they may serve" },
+                        { text: "INSTITUTE OF COMPUTER STUDIES Goals: 1. Inculcate love of God, country, the local and global community; 2. Recruit, develop and support professional growth of competent and qualified teaching force and staff of ICS; 3. Provide quality technology-based education 4. Maximize the use of the College resources and those of the local Govemment Unit in providing adequate facilities adaptable to local and international demands and standards." },
+                        { text: "Here are some information that i need you to remember: THANK YOU SO MUCH, Dr. Miriam B. Fuentes, the Chief Education Program Specialist, and Dr. Abraham E. Morong, Jr. CHED Education Supervisor II for gracing the Board of Trustees (BOT) Meeting of Tangub City Global College (TCGC) on February 8, 2024 at Board Room, TCGC Main Building, Maloro, Tangub City. Your presence and shared insights are invaluable in bracing academe’s strategic direction, fostering accountability, and advancing transparency in alignment with its vision and mission. Consequently, this cultivates a culture of excellence, nurturing competitive students dedicated to be the light of the world. Likewise, the college's Key Officials, Institute Deans, and Office Heads, spearheaded by the College President, Dr. Maricelle M. Nueva, would like to convey sincere  gratitude to the City Officials, TCGC Board of Trustees, under the leadership of the City Mayor, Hon. Sabiniano S. Canama, and to the City Administrator, Ruby E. Bacaling, for consistently responding favorably to our requests, which greatly benefit students in their pursuit of a better tomorrow." },
+                        { text: "Tangub City Global College (TCGC) is the new name for GADTC " },
+                        { text: "Vision GADTC is integral to Tangub City’s becoming a center for learning and eco-cultural tourism by producing God-centered citizens committed to be THE LIGHT OF THE WORLD." },
+                        { text: "TCGC Mission: To provide opportunities for continuing education for faculty and staff, providing upgraded facilities for quality and research-based instruction to students towards community engagement and linkages to industry." },
+                        { text: "TCGC Core Values: Integrity, Compassion, and Excellence." },
+                        { text: "TCGC Quality Policy: Commits to nurture the academic excellence through quality instruction, establish research and community extension programs that facilitate the transfer of knowledge and skills, foster leadership and promote self-reliance among the people." },
+                        { text: "This is the History Gov. Alfonso D. Tan College (GADTC) started as Tangub City College (TCC) in 1984. It was born during the incumbency of the late Mayor Alfonso D. Tan of Tangub City. By virtue of City Ordinance No.15 entitled “An Ordinance Providing for the Establishment and Maintenance of a City College in Tangub City” the college opened its doors on June 1, 1984 to more than 200 pioneering students. Later on 1992, under the term of Gov. Philip T. Tan, nephew of GADTC founder, TCC turned into Gov. Alfonso D. Tan Memorial College (GADTMC). He vowed to improve the College’s facilities and to raise the standards of the school. Its third transition marked on 2003 under the governance of Mayor Jennifer Wee-Tan from GADTMC to Alfonso D. Tan College (ADTC). Afterwards, in 2007 in the same administration it changed into Gov. Alfonso D. Tan College (GADTC). At the present the college still bears the name – Gov. Alfonso D. Tan College, stamped in its wavering green flag which emblematize its excellence and pride with myriads of accomplishments achieved. GADTC continue to uplift the life of each individual, building their dreams and realizing their visions to be the light of the world." }
                     ],
             },
             {
                 role: "model",
-                parts: [{ text: "Great to meet you. What would you like to know about TCGC?" }],
+                parts: [
+                    { text: "Great to meet you. What would you like to know about TCGC?" },
+                ],
             },
         ],
         generationConfig: {
@@ -130,18 +141,25 @@ const aiResponse = async (userPrompt) => {
 
     try {
         const text = await run(userPrompt);
-        aiMessageDiv.innerText = text;
+        aiMessageDiv.innerText = await text;
+
+        if (text.trim() === "") {
+            alert("No response available, please reload the page...");
+            // location.reload();
+        } else {
+            main.appendChild(aiSection);
+
+            aiSection.appendChild(aiProfileDiv);
+            aiProfileDiv.appendChild(aiIMG);
+
+            aiSection.appendChild(aiMessageDiv);
+            main.scrollTop = main.scrollHeight;
+        }
     } catch (e) {
         aiMessageDiv.innerText = "No Response available :(";
     }
 
-    main.appendChild(aiSection);
 
-    aiSection.appendChild(aiProfileDiv);
-    aiProfileDiv.appendChild(aiIMG);
-
-    aiSection.appendChild(aiMessageDiv);
-    main.scrollTop = main.scrollHeight;
 }
 
 aiResponse("Hi there!");
